@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6ed50a79e5004101a03f790ab3f9caf",
+    "content-hash": "45fef52a375d562e78d6c82ab7e68fb6",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -2941,6 +2941,129 @@
             "time": "2016-12-13T01:01:17+00:00"
         },
         {
+            "name": "mitydigital/feedamic",
+            "version": "3.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mitydigital/statamic-feedamic.git",
+                "reference": "82c70cec1eede25ed149f5a3d5eec5a98429c600"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mitydigital/statamic-feedamic/zipball/82c70cec1eede25ed149f5a3d5eec5a98429c600",
+                "reference": "82c70cec1eede25ed149f5a3d5eec5a98429c600",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^11.35|^12.0",
+                "statamic/cms": "^5.59|^6.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^3.6",
+                "laravel/pint": "^1.10",
+                "orchestra/testbench": "^10.0",
+                "pestphp/pest": "^4.0",
+                "pestphp/pest-plugin-laravel": "^4.0",
+                "spatie/laravel-ray": "^1.33"
+            },
+            "suggest": {
+                "ext-xmlreader": "Required for XML parsing features in this package",
+                "ext-xmlwriter": "Required for XML generation features in this package"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MityDigital\\Feedamic\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Feedamic",
+                    "description": "A fully-featured RSS and Atom feed generator for Statamic."
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MityDigital\\Feedamic\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marty Friedel"
+                }
+            ],
+            "description": "A fully-featured RSS and Atom feed generator for Statamic.",
+            "keywords": [
+                "atom",
+                "rss",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/mitydigital/statamic-feedamic/issues",
+                "source": "https://github.com/mitydigital/statamic-feedamic/tree/3.0.10"
+            },
+            "time": "2026-02-22T04:13:18+00:00"
+        },
+        {
+            "name": "mitydigital/sitemapamic",
+            "version": "3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mitydigital/statamic-sitemapamic.git",
+                "reference": "eee5a4fc4b5b5b20467f54f222d9c88b58cc40b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mitydigital/statamic-sitemapamic/zipball/eee5a4fc4b5b5b20467f54f222d9c88b58cc40b9",
+                "reference": "eee5a4fc4b5b5b20467f54f222d9c88b58cc40b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "statamic/cms": "^5.0|^6.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MityDigital\\Sitemapamic\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Sitemapamic",
+                    "description": "Adds an XML sitemap to a Statamic site."
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MityDigital\\Sitemapamic\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marty Friedel"
+                }
+            ],
+            "description": "An XML sitemap generator for Statamic that includes all collections and related taxonomy pages.",
+            "keywords": [
+                "Sitemap",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/mitydigital/statamic-sitemapamic/issues",
+                "source": "https://github.com/mitydigital/statamic-sitemapamic/tree/3.4.1"
+            },
+            "time": "2025-10-20T21:57:29+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "3.10.0",
             "source": {
@@ -5220,16 +5343,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v6.3.1",
+            "version": "v6.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "d96c9aac5b98bbb4b8cd17e0bd49cc9f179a8888"
+                "reference": "8881a3e73b7867eaf211d36f7c6323928db286de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/d96c9aac5b98bbb4b8cd17e0bd49cc9f179a8888",
-                "reference": "d96c9aac5b98bbb4b8cd17e0bd49cc9f179a8888",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/8881a3e73b7867eaf211d36f7c6323928db286de",
+                "reference": "8881a3e73b7867eaf211d36f7c6323928db286de",
                 "shasum": ""
             },
             "require": {
@@ -5341,7 +5464,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v6.3.1"
+                "source": "https://github.com/statamic/cms/tree/v6.3.3"
             },
             "funding": [
                 {
@@ -5349,7 +5472,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-16T21:45:05+00:00"
+            "time": "2026-02-20T22:03:15+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -6464,6 +6587,76 @@
                 }
             ],
             "time": "2026-01-08T08:25:11+00:00"
+        },
+        {
+            "name": "symfony/mailgun-mailer",
+            "version": "v8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/mailgun-mailer.git",
+                "reference": "c8567e2b9a64db3aebd701838402a3726061c36a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/mailgun-mailer/zipball/c8567e2b9a64db3aebd701838402a3726061c36a",
+                "reference": "c8567e2b9a64db3aebd701838402a3726061c36a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.4",
+                "symfony/mailer": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "symfony/http-client": "^7.4|^8.0",
+                "symfony/webhook": "^7.4|^8.0"
+            },
+            "type": "symfony-mailer-bridge",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Mailer\\Bridge\\Mailgun\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Mailgun Mailer Bridge",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/mailgun-mailer/tree/v8.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-08-04T07:36:47+00:00"
         },
         {
             "name": "symfony/mime",

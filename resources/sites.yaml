@@ -1,0 +1,4 @@
+default:
+  name: 'I Can Fix Your Website'
+  url: /
+  locale: '{{ config:app:locale }}'
