@@ -5,7 +5,7 @@ title: Home
 template: default
 author: 25b17394-47f3-4a45-b3b9-6fa510f9a77f
 updated_by: 25b17394-47f3-4a45-b3b9-6fa510f9a77f
-updated_at: 1771737557
+updated_at: 1771832624
 content:
   -
     id: lKxn28mTbzBCZ8Jzkhe4k
@@ -31,6 +31,8 @@ content:
       - Sites that no longer meet accessibility expectations
 
       If your site feels fragile or you are afraid to touch it in case something breaks, that is a strong sign it needs attention.
+
+      [Read more](/when-your-website-becomes-a-problem)
     type: section
     enabled: true
   -
@@ -40,6 +42,8 @@ content:
       WordPress is powerful, but it can quickly become unstable when themes, plugins, and updates are poorly managed. I regularly repair WordPress websites that have broken after updates, suffered performance issues, or become bloated and unreliable over time.
 
       That may involve fixing plugin conflicts, cleaning up themes, improving performance, or recommending a safer long-term approach if WordPress is no longer the right fit.
+
+      [Read more](/wordpress-problems-fixed-properly)
     type: section
     enabled: true
   -
@@ -49,6 +53,8 @@ content:
       A slow website costs you visitors, rankings, and trust. I identify what is actually causing performance issues and fix them at the source, whether that is inefficient code, oversized assets, poor hosting, or unnecessary plugins.
 
       SEO issues often go hand in hand with performance and structure problems. I focus on practical improvements that help search engines understand your site better, from page structure and content hierarchy to technical foundations that support indexing and ranking.
+
+      [Read more](/faster-sites-and-better-seo)
     type: section
     enabled: true
   -
@@ -58,6 +64,8 @@ content:
       If your site does not work well on phones and tablets, you are losing users. I fix layouts that break on smaller screens and rebuild problem areas so your website works properly across devices.
 
       Accessibility is also part of the process. Improving keyboard access, readable content, and overall usability makes your site work better for everyone and reduces future risk.
+
+      [Read more](/mobile-friendly-and-accessible-again)
     type: section
     enabled: true
   -
@@ -67,6 +75,8 @@ content:
       My services are competitively and fairly priced, with a focus on solving real problems quickly. I do not upsell unnecessary rebuilds or long contracts unless they are genuinely the right solution.
 
       You deal directly with the person fixing your site, not a support queue or a junior developer. Clear communication, honest advice, and dependable results are part of the service.
+
+      [Read more](/fast-fair-and-reliable-help)
     type: section
     enabled: true
   -
