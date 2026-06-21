@@ -158,7 +158,7 @@ content:
 
       If your site has started to feel like a liability instead of an asset, get in touch. Let's make it solid.
     button_label: "Let's go"
-    button_link: /contact
+    button_link: 'mailto:phil@truenorthlabs.com.au'
     type: cta
     enabled: true
 ---

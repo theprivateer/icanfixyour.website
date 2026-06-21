@@ -86,7 +86,7 @@ content:
 
       If your website is broken, slow, or no longer fit for purpose, let's fix it. I can help you stabilise your site, improve performance, and get back to focusing on your business instead of fighting your website.
     button_label: 'Get in touch and tell me what is going wrong'
-    button_link: /contact
+    button_link: 'mailto:phil@truenorthlabs.com.au'
     type: cta
     enabled: true
 ---
